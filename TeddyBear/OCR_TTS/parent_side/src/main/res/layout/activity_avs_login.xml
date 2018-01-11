@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/activity_access_token"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.wistron.demo.tool.teddybear.parent_side.avs.AccessTokenActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#669933"
+        android:visibility="gone"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/avs_login_account"
+                    android:textSize="@dimen/avs_activity_button_text_size" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:textIsSelectable="true"
+                    android:text="@string/avs_login_account_content"
+                    android:textSize="@dimen/avs_activity_button_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/avs_login_password"
+                    android:textSize="@dimen/avs_activity_button_text_size" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:textIsSelectable="true"
+                    android:text="@string/avs_login_password_content"
+                    android:textSize="@dimen/avs_activity_button_text_size" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <com.wistron.demo.tool.teddybear.parent_side.view.FlatButton
+        android:id="@+id/demo_item_avs_connect"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:text="@string/avs_connect_product"
+        android:textAllCaps="false"
+        android:textSize="@dimen/main_activity_button_text_size"
+        app:fl_blockButtonEffectHeight="@dimen/main_activity_button_effect_height"
+        app:fl_blockButtonRightEffectHeight="@dimen/main_activity_button_right_effect_height" />
+
+
+    <com.wistron.demo.tool.teddybear.parent_side.view.FlatButton
+        android:id="@+id/demo_item_avs_login"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:text="@string/avs_login"
+        android:textAllCaps="false"
+        android:textSize="@dimen/main_activity_button_text_size"
+        app:fl_blockButtonEffectHeight="@dimen/main_activity_button_effect_height"
+        app:fl_blockButtonRightEffectHeight="@dimen/main_activity_button_right_effect_height" />
+
+    <TextView
+        android:id="@+id/login_information"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:visibility="gone" />
+
+    <com.wistron.demo.tool.teddybear.parent_side.view.FlatButton
+        android:id="@+id/demo_item_avs_logout"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="0dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:text="@string/avs_logout"
+        android:textAllCaps="false"
+        android:textSize="@dimen/main_activity_button_text_size"
+        app:fl_blockButtonEffectHeight="@dimen/main_activity_button_effect_height"
+        app:fl_blockButtonRightEffectHeight="@dimen/main_activity_button_right_effect_height" />
+</LinearLayout>

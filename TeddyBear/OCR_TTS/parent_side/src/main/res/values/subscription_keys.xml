@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ~~~~~~~~~~~~  Microsoft Azure ~~~~~~~~~~  -->
+    <!-- Reserved ~~~ Keys: King-->
+    <string name="computer_vision_subscription_key_king">2b0b5d0a7df149c6b8c83b4684ec8a99</string>
+    <string name="speech_subscription_primary_key_king">ec469f846e9a424c9c58a6d72baa70c3</string>
+    <string name="speech_subscription_secondary_key_king">a1290e3936a9481e81c17db232f194f9</string>
+    <string name="face_subscription_key_king">7355f0bd24134bb1add78cd2f40e05a8</string>
+    <string name="emotion_subscription_key_king">6aca20103f624b2f9312aef70ac85d0e</string>
+    <string name="speaker_recognition_subscription_key_king">d685dfa142f14ef6b057ce48a1161eff</string>
+    <!-- Reserved ~~~ Keys: Berlin-->
+    <string name="computer_vision_subscription_key_berlin">662232a4d9394b9395c79e920971eb25</string>
+    <string name="speech_subscription_primary_key_berlin">491ac83f63f842199e36c02217dd0422</string>
+    <string name="speech_subscription_secondary_key_berlin">b2cda2b3133743049e5f3e601f640932</string>
+    <string name="face_subscription_key_berlin">ccbe821a67224ac69cd4d09394bb07a5</string>
+    <string name="emotion_subscription_key_berlin">f2b7dea1eb644552a7ef26f487d31020</string>
+    <string name="speaker_recognition_subscription_key_berlin">6584207f2e474c298172a30138e2126f</string>
+    <!-- Reserved ~~~ Keys: Bob-->
+    <string name="computer_vision_subscription_key_bob">a2514372bbc14ed28c96f626115f98c9</string>
+    <string name="speech_subscription_primary_key_bob">2856f83e749a479194ea9f71f0ece6e4</string>
+    <string name="speech_subscription_secondary_key_bob">5b4b65886cd74bf08b138e54fde07d27</string>
+    <string name="face_subscription_key_bob">7110378c926f4c158fdaafa91b9b91a8</string>
+    <string name="emotion_subscription_key_bob">58bb7ee1c7fc40d99748f78b42beb9e4</string>
+    <string name="speaker_recognition_subscription_key_bob">ac58314601cf4e8e8947b639cef7785a</string>
+    <!-- Reserved ~~~ Keys: temporary keys for 90 days, start from 2016/4/28 to 2016/7/27 -->
+    <string name="speech_subscription_primary_key_temp">70d0794180f94406896c29d0bc96260b</string>
+    <string name="speech_subscription_secondary_key_temp">2a576aebfd1e443f80fb5b5a35fe4f62</string>
+    <!-- Azure keys-->
+    <string name="azure_computer_vision_subscription_key">34fd75dee7c0416ba9faff176cf100d0</string>
+    <string name="azure_speech_subscription_primary_key">0362e754bafc4a05b0b32d2741a17e57</string>
+    <string name="azure_speech_subscription_secondary_key">252659e62d164b5ea9a5971738e3ec7a</string>
+    <string name="azure_face_subscription_key">3056c747c466430ba0fae16399aef1a4</string>
+    <string name="azure_emotion_subscription_key">496e17f394c84b4b9e24c823414527a0</string>
+    <string name="azure_speaker_recognition_subscription_key">39de62c0789841c9967f678a4afd0f28</string>
+    <string name="azure_translator_subscription_key">e558a7c1ed1b4011aa34e252a357f352</string>
+    <string name="luis_main_app_id">3cb47fb0-74c8-4917-91e1-b3823aafb534</string> <!-- Customization app id-->
+    <string name="luis_main_app_id_cn">54781f4a-2eb6-4339-8495-3e022daab283</string>
+    <string name="luis_memo_game_app_id">e7e91299-31d1-4db3-84ee-4680569a112b</string>
+    <string name="luis_memo_game_app_id_cn">276f3c76-4589-448a-a515-bdf0f06834aa</string>
+    <!--<string name="luis_subscription_key">dae0485a45dc42c5a30e2cfa7be67025</string>-->
+    <string name="luis_subscription_key">10ca58d5e3534834ad0365c44fb48673</string>
+
+    <!-- ~~~~~~~~~~~~  Google cloud ~~~~~~~~~~  -->
+    <!-- Google cloud translate API key -->
+    <string name="google_cloud_translation_api_key">AIzaSyA8rJ-fJBcKJw8UMgLjfiIUj96HtBWsuo8</string>
+
+    <!-- ~~~~~~~~~~~~  News API ~~~~~~~~~~  -->
+    <string name="newsapi_api_key">f73742ff230a4111b9f0fab284237c8a</string>
+
+    <!-- ~~~~~~~~~~~~  Chat robot ~~~~~~~~~~  -->
+    <string name="chat_robot_api_key">kdF4TfcdxgUdJVJ3</string>
+    <string name="chat_robot_api_secret">Il4nVtLVQXTDcv8eNvnwJGxgSES7tBnF</string>
+
+    <!-- ~~~~~~~~~~~~  Wunderground keys ~~~~~~~~~~  -->
+    <string name="wunderground_subscription_key">9b44e9f7691775e6</string>
+
+    <!-- ~~~~~~~~~~~~  Bing map key ~~~~~~~~~~  -->
+    <string name="bing_map_subscription_key">Ah9wFlzjyJuRFRy1krUzFBkNsCQma6whNz3b00zKpccSqwlsYysFAbUNksZKmltB</string>
+</resources>

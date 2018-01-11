@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/menu_item_settings">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="parent_control"
+        android:title="@string/preference_parent_control_title" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="translate_enabler"
+        android:title="@string/preference_translate_enabler_title" />
+
+    <ListPreference
+        android:defaultValue="@string/preference_translator_default_value"
+        android:enabled="true"
+        android:entries="@array/preference_translator_entries"
+        android:entryValues="@array/preference_translator_values"
+        android:key="translator"
+        android:persistent="true"
+        android:summary="@string/preference_translator_summary"
+        android:title="@string/preference_translator_title" />
+
+    <!-- Microsoft & Baidu translate -->
+    <ListPreference
+        android:defaultValue="@string/preference_voice_language_default_value"
+        android:dependency="translate_enabler"
+        android:entries="@array/preference_voice_language_entries"
+        android:entryValues="@array/preference_voice_language_values"
+        android:key="voice_language"
+        android:persistent="true"
+        android:summary="@string/preference_voice_language_summary"
+        android:title="@string/preference_voice_language_title" />
+    <ListPreference
+        android:defaultValue="@string/preference_voice_gender_default_value"
+        android:entries="@array/preference_voice_gender_entries_both"
+        android:entryValues="@array/preference_voice_gender_values_both"
+        android:key="voice_gender"
+        android:persistent="true"
+        android:summary="@string/preference_voice_gender_summary"
+        android:title="@string/preference_voice_gender_title" />
+
+    <!-- Reserved -->
+    <ListPreference
+        android:defaultValue="@string/preference_translate_language_default_value"
+        android:dependency="translate_enabler"
+        android:entries="@array/preference_translate_language_entries"
+        android:entryValues="@array/preference_translate_language_values"
+        android:key="translate_language"
+        android:persistent="true"
+        android:summary="@string/preference_translate_language_summary"
+        android:title="@string/preference_translate_language_title" />
+
+    <!-- Google translate -->
+    <ListPreference
+        android:defaultValue="@string/preference_google_voice_language_default_value"
+        android:dependency="translate_enabler"
+        android:entries="@array/preference_google_voice_language_entries"
+        android:entryValues="@array/preference_google_voice_language_values"
+        android:key="google_voice_language"
+        android:persistent="true"
+        android:summary="@string/preference_voice_language_summary"
+        android:title="@string/preference_voice_language_title" />
+
+</PreferenceScreen>

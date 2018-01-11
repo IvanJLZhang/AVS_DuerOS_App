@@ -1,0 +1,199 @@
+<resources>
+    <string name="app_name">Parent_Teddy_Bear</string>
+    <string name="version_info">V%1$s - Build %2$d</string>
+
+    <string name="demo_title_ocr_tts">Sync OCR_TTS config to child</string>
+    <string name="demo_title_scene">Message scene</string>
+    <string name="demo_title_monitor_mode">Sync monitor mode config to child</string>
+    <string name="demo_title_children_management">Children management</string>
+    <string name="demo_title_enroll_speaker">Enroll speaker</string>
+    <string name="demo_title_wifi_setting_bt">Wifi settings(BT)</string>
+    <string name="demo_title_wifi_setting_p2p">Wifi settings(Wifi)</string>
+    <string name="demo_title_bluetooth_setting">Users identification by bluetooth</string>
+    <string name="demo_title_pre_settings">Pre settings</string>
+    <string name="demo_title_scenario_settings">Scenario settings</string>
+    <string name="demo_title_light_bulb_control">Light bulb control</string>
+
+    <string name="menu_item_children_management">Children management</string>
+    <string name="menu_item_add">Add</string>
+    <string name="menu_item_modify">Modify</string>
+    <string name="menu_item_delete">Delete</string>
+    <string name="menu_item_settings">Settings</string>
+    <string name="menu_item_enroll_speaker">Enroll speaker</string>
+    <string name="menu_item_sva_user_management">SVA User Management</string>
+    <string name="menu_item_reread">Reread</string>
+    <string name="menu_item_ocr_tts_settings">OCR_TTS settings</string>
+    <string name="menu_item_scene_settings">Scene settings</string>
+    <string name="menu_item_monitor_mode_settings">Monitor mode settings</string>
+
+    <string name="btn_title_sync_to_server">Sync\nto\nserver</string>
+    <string name="btn_title_sync_from_server">Sync\nfrom\nserver</string>
+    <string name="btn_title_cancel">Cancel</string>
+    <string name="btn_title_ok">OK</string>
+
+    <string name="child_title">Child:</string>
+    <string name="child_none_warning">Please add a child to control.</string>
+    <string name="children_management_no_child_warning">Please click A to add a child!</string>
+
+    <string name="dialog_title_delete_child">Are you sure?</string>
+    <string name="dialog_msg_delete_child">This child will not be controlled by you, continue to remove?</string>
+    <string name="dialog_warning_msg_name_is_empty">Name can\'t be empty, please try again!</string>
+    <string name="dialog_warning_msg_name_is_exist">The name or SN is exist, please try again!</string>
+
+    <string name="msg_dont_modify_the_file">Please don\'t modify this file.</string>
+    <string name="msg_cant_connect_ftp_server">Can\'t connect the FTP server.</string>
+    <string name="msg_sn_invalid">The serial number is invalid.</string>
+    <string name="msg_ftp_sync_fail">Failed to upload the OCR_TTS settings</string>
+
+    <string name="preference_voice_title">Voice options</string>
+    <string name="preference_translate_title">Translate options</string>
+    <string name="preference_parent_control_title">Parent control</string>
+    <!--Voice language-->
+    <string name="preference_voice_language_title">Language region</string>
+    <string name="preference_voice_language_summary">Please select a language region</string>
+    <string name="preference_voice_language_default_value">en-US</string>
+    <string name="preference_google_voice_language_default_value">en_US</string>
+    <!--Voice gender-->
+    <string name="preference_voice_gender_title">Voice gender</string>
+    <string name="preference_voice_gender_summary">Please select a voice gender</string>
+    <string name="preference_voice_gender_default_value">1</string>
+    <!-- Translator-->
+    <string name="preference_translator_title">Translator</string>
+    <string name="preference_translator_summary">Please select a translator</string>
+    <string name="preference_translator_default_value">0</string>
+    <string name="translator_baidu">0</string>
+    <string name="translator_google">1</string>
+    <string name="translator_microsoft">2</string>
+    <!-- Translate enabler -->
+    <string name="preference_translate_enabler_title">Translate</string>
+    <string name="preference_translate_enabler_default_value">true</string>
+    <!-- Translate language -->
+    <string name="preference_translate_language_title">Translate language</string>
+    <string name="preference_translate_language_summary">Please select a translate language</string>
+    <string name="preference_translate_language_default_value">en</string>
+
+    <string name="ocr_tts_sync_to_child">Sync to child</string>
+
+    <!-- Main Settings -->
+    <string name="preference_server_ip_address_title">Server address</string>
+    <string name="preference_server_ip_address_summary">Please type server address which need to connect</string>
+    <string name="preference_server_ip_address_default_value">192.168.191.1</string>
+    <string name="preference_server_domain_title">Domain</string>
+    <string name="preference_server_domain_summary">(Nullable) Please type the domain</string>
+    <string name="preference_server_domain_default_value"></string>
+    <string name="preference_server_username_title">User name</string>
+    <string name="preference_server_username_summary">Please type the user name</string>
+    <string name="preference_server_username_default_value">Aaron</string>
+    <string name="preference_server_password_title">Password</string>
+    <string name="preference_server_password_summary">Please type the password</string>
+    <string name="preference_server_password_default_value">1</string>
+    <string name="preference_server_password_format">\u25CF</string>
+    <string name="preference_monitor_mode_time_title">Warning interval(mins)</string>
+    <string name="preference_monitor_mode_time_summary">Please set Monitor mode warning interval</string>
+    <string name="preference_monitor_mode_time_default_value">30</string>
+    <string name="preference_monitor_mode_noise_title">Noise setting(dB)</string>
+    <string name="preference_monitor_mode_noise_summary">Please set Monitor Mode Noise Setting</string>
+    <string name="preference_monitor_mode_noise_default_value">50</string>
+    <!-- FTP -->
+    <string name="preference_ftp_server_ip_address_default_value">mhdqftp.wistron.com.tw</string>
+    <string name="preference_ftp_server_port_title">Port</string>
+    <string name="preference_ftp_server_port_summary">Please type the port</string>
+    <string name="preference_ftp_server_port_default_value">21</string>
+    <string name="preference_ftp_server_username_default_value">M-Polluxtemp</string>
+    <string name="preference_ftp_server_password_default_value">ct55tnav</string>
+
+    <string name="child_params_name">Name</string>
+    <string name="child_params_sn">Serial number</string>
+
+    <string name="start_monitor_mode">Start Monitor Mode</string>
+    <string name="stop_monitor_mode">Stop Monitor Mode</string>
+
+    <!-- Speaker Recognition-->
+    <string name="speaker_recognition_sample_text">My voice is my passport verify me</string>
+    <string name="speaker_recognition_sample_text_tips">Notice: Please say anything to enroll your voice.
+        \nThe audio file should be at least 0 seconds long and no longer than 30 seconds.
+    Each person has only one ID.</string>
+    <string name="btn_title_start_recording">Start recording</string>
+    <string name="btn_title_stop_recording">Stop recording</string>
+    <string name="btn_start_record_touch_down">Press to start record</string>
+    <string name="btn_start_record_touch_up">Release stop record</string>
+    <string name="btn_create_profile">Create Profile</string>
+    <string name="btn_get_all_profile">Get Profile</string>
+    <string name="btn_reset_profile">Reset Profile</string>
+    <string name="btn_delete_profile">Delete Profile</string>
+
+    <!--SVA user-->
+    <string name="user_params_name">Name</string>
+    <string name="user_params_email">Email Address</string>
+    <string name="user_params_mac_address">MAC Address</string>
+    <string name="user_delete_warning">Are you sure delete the SVA?</string>
+    <string name="user_dialog_title_add">Add Dialog</string>
+    <string name="user_dialog_title_modify">Modify Dialog</string>
+    <string name="user_dialog_title_delete">Delete Dialog</string>
+    <string name="user_dialog_warning_msg_name_is_empty">Name or Email can\'t be empty, please try again!</string>
+    <string name="user_dialog_warning_msg_email_is_invalid">The email address is invalid, please try again!</string>
+    <string name="user_dialog_warning_msg_mac_is_empty">BT mac can\'t be empty, please try again!</string>
+    <string name="user_bluetooth_management_no_user_warning">Please click A to set user identification by bluetooth!</string>
+    <string name="user_bluetooth_list_sync_to_server">Sync To Server</string>
+    <string name="user_dialog_warning_msg_name_is_exist">The name, email or MAC is exist, please try again!</string>
+    <string name="user_dialog_email_input_type">1234567890~!@#$%^*()_+-=qwertyuiopasdfghjklzxcvbnm,.</string>
+
+    <!-- wifi settings -->
+    <string name="Select_pando_title">Please select your Teddy in below list.</string>
+    <string name="Select_wifi_title">Please select wifi to connect.</string>
+    <string name="Refresh">Scan</string>
+    <string name="action_settings">Settings</string>
+    <string name="password">Password</string>
+    <string name="connect_wifi">Connect to Wi-Fi</string>
+    <string name="show_password">Show password</string>
+    <string name="connect">CONNECT</string>
+    <string name="cancel">CANCEL</string>
+    <string name="connecting">Connecting...</string>
+    <string name="connect_fail">Bluetooth connect fail</string>
+    <string name="disconnect_bluetooth">Your bluetooth has disconnected.</string>
+    <string name="permission_dine">No permission to open bluetooth.</string>
+    <string name="connect_success">Connect wifi success.</string>
+    <string name="connect_timeout">Connect wifi timeout.</string>
+    <string name="connect_disabled">Connect wifi disabled.</string>
+    <string name="connect_avoided">Avoided poor internet connection</string>
+    <string name="connect_authentication_problem">Authentication problem</string>
+    <string name="status_unavailable">Unavailable</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_failed">Failed</string>
+    <string name="status_available">Available</string>
+    <string name="status_invited">Invited</string>
+    <string name="wifip2p_disconnect">Wifi direct disconnected.</string>
+    <string name="socket_timeout">Socket timeout, please try again.</string>
+    <string name="Refreshing">Scanning&#8230;</string>
+    <string name="socket_exception">Socket exception</string>
+    <string name="wifip2p_connected">Connect to Teddy success.</string>
+
+    <!-- for AVS  -->
+    <string name="avs_connect_product">Connect Product</string>
+    <string name="avs_login">AVS Login</string>
+    <string name="avs_logout">AVS Logout</string>
+    <string name="avs_login_account">Account:</string>
+    <string name="avs_login_account_content">bob_x_liu@wistron.com</string>
+    <string name="avs_login_password">Password:</string>
+    <string name="avs_login_password_content">Lb20160919</string>
+    <string name="avs_connect_product_wait">Connect Product,please wait ...</string>
+    <!--<string name="avs_login">Login</string>-->
+    <!-- for DCS -->
+    <string name="bd_login">DCS Login</string>
+    <string name="bd_logout">DCS Logout</string>
+
+    <string name="demo_item_notification_access">Notification access</string>
+    <string name="notification_access_apps_title">Select apps</string>
+    <string name="notification_access_apps_summary_none">No apps can be allowed to sync</string>
+    <string name="notification_access_apps_summary_one">1 app can be allowed to sync</string>
+    <string name="notification_access_apps_summary_more">%1$d apps can be allowed to sync</string>
+    <string name="notification_msg_title_is">Title is %1$s.&#160;</string>
+    <string name="notification_msg_content_is">Content is %1$s.&#160;</string>
+
+    <!-- for Light bulb control -->
+    <string name="light_bulb_progress_dialog_msg_connect">Connecting ...</string>
+    <string name="light_bulb_progress_dialog_msg_loading">Loading ...</string>
+    <string name="light_bulb_toast_msg_connect_fail">Connect fail, please try again.</string>
+    <string name="light_bulb_toast_msg_connect_success">Connect success.</string>
+    <string name="light_bulb_toast_msg_get_list_fail">Get light bulb list fail.</string>
+</resources>

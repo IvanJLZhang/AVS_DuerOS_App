@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flatui="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/grape_primary"
+    tools:context="com.wistron.demo.tool.teddybear.ocr_tts.OcrTtsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_selector_background_focused"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/select_image_title" />
+
+            <FrameLayout
+                android:layout_width="200dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center_horizontal">
+
+                <ImageView
+                    android:id="@+id/selectedImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#E0E0E0"
+                    android:padding="2dp"
+                    android:scaleType="centerInside" />
+
+                <TextView
+                    android:id="@+id/selectedImageError"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/select_image_error"
+                    android:visibility="gone"
+                    android:textColor="#f00" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <com.wistron.demo.tool.teddybear.scene.view.FlatButton
+                android:id="@+id/btnSelectImgFromPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/take_photo"
+                flatui:fl_blockButtonEffectHeight="@dimen/main_activity_button_effect_height"
+                flatui:fl_blockButtonRightEffectHeight="@dimen/main_activity_button_right_effect_height" />
+
+            <com.wistron.demo.tool.teddybear.scene.view.FlatButton
+                android:id="@+id/btnSelectImgFromLocal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/select_image_in_album"
+                flatui:fl_blockButtonEffectHeight="@dimen/main_activity_button_effect_height"
+                flatui:fl_blockButtonRightEffectHeight="@dimen/main_activity_button_right_effect_height" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_selector_background_focused"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Spinner
+            android:id="@+id/translate_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/translate_entries" />
+
+        <ImageButton
+            android:id="@+id/translate_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_btn_search_go" />
+
+        <Spinner
+            android:id="@+id/translate_to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/translate_entries" />
+
+        <Button
+            android:id="@+id/btnTranslate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:text="@string/translate_btn" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/list_selector_background_focused"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/analyzeState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textColor="#f00" />
+
+        <EditText
+            android:id="@+id/analyzeResult"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/list_selector_background_focused"
+            android:ems="6"
+            android:textSize="14sp"
+            android:inputType="textMultiLine"
+            android:padding="2dp"
+            android:scrollbars="vertical"
+            android:editable="false"
+            android:focusable="false"
+            android:gravity="top"
+            android:text="@string/tts_demo_test" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.wistron.demo.tool.teddybear.scene.view.FlatButton
+                android:id="@+id/btnStartRead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/tts_start"
+                flatui:fl_blockButtonEffectHeight="@dimen/main_activity_button_effect_height"
+                flatui:fl_blockButtonRightEffectHeight="@dimen/main_activity_button_right_effect_height" />
+
+            <com.wistron.demo.tool.teddybear.scene.view.FlatButton
+                android:id="@+id/btnStopRead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:enabled="false"
+                android:text="@string/tts_stop"
+                flatui:fl_blockButtonEffectHeight="@dimen/main_activity_button_effect_height"
+                flatui:fl_blockButtonRightEffectHeight="@dimen/main_activity_button_right_effect_height" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

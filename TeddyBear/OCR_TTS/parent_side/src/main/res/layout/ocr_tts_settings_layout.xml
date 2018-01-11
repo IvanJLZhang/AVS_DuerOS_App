@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ocr_tts_child_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/child_title"
+            android:textSize="30sp" />
+
+        <Spinner
+            android:id="@+id/ocr_tts_children_list"
+            style="@android:style/Theme.Holo.Light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="5dp"
+            android:gravity="center|fill_horizontal"
+            android:minHeight="60dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="@drawable/layout_divider" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/list_selector_background_focused"
+        android:layout_margin="5dp"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:id="@+id/ocr_tts_sync_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@android:id/list"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <com.wistron.demo.tool.teddybear.parent_side.view.FlatButton
+                android:id="@+id/ocr_tts_sync_to_child"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/ocr_tts_sync_to_child"
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold"
+                app:fl_blockButtonEffectHeight="@dimen/main_activity_button_effect_height"
+                app:fl_blockButtonRightEffectHeight="@dimen/main_activity_button_right_effect_height" />
+
+            <include
+                layout="@layout/version_info_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/ocr_tts_no_child_warning"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/child_none_warning"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_dark" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,471 @@
+<!-- For tts string id, please follow the below rules to define:
+Eg:
+    <string name="to_test">test</string>
+    <string name="to_test_cn">测试</string>
+    <string name="to_test_de">****</string>
+    <string name="to_test_es">****</string>
+    <string name="to_test_fr">****</string>
+    <string name="to_test_it">****</string>
+
+-->
+
+<resources>
+    <string name="app_name">Teddy bear</string>
+    <string name="version_info">V%1$s - Build %2$d</string>
+
+    <string name="demo_title_ocr_tts">OCR_TTS demo</string>
+    <string name="demo_title_scene">Scene demo</string>
+    <string name="demo_title_monitor_mode_start">Start Monitor Mode</string>
+    <string name="demo_title_monitor_mode_stop">Stop Monitor Mode</string>
+
+    <string name="menu_item_settings">Settings</string>
+    <string name="menu_item_enroll_speaker">Enroll speaker</string>
+    <string name="menu_item_reread">Reread</string>
+    <string name="menu_item_chat_robot">Chat bot</string>
+    <string name="menu_item_voice_assist">Voice assist</string>
+    <string name="menu_item_ocr_tts">OCR</string>
+    <string name="menu_item_ocr_tts_settings">OCR_TTS settings</string>
+    <string name="menu_item_scene_settings">Scene settings</string>
+
+    <string name="select_image_title">Select an image to analyze:</string>
+    <string name="take_photo">Take a Photo</string>
+    <string name="select_image_in_album">From Gallery</string>
+    <string name="select_image_error">Can\'t load the selected image, please try again.</string>
+    <string name="tts_demo_test">This is a test content, please select an image to analyze.</string>
+    <string name="tts_start">Start</string>
+    <string name="tts_pause">Pause</string>
+    <string name="tts_stop">Stop</string>
+    <string name="translate_btn">Translate</string>
+    <string name="translate_title">Destination language:</string>
+
+    <string name="state_analyze_image">Start to analyze the selected image&#8230;</string>
+    <string name="state_analyze_translate">Start to translate content&#8230;</string>
+    <string name="state_analyze_translate_error">Translation is failed, please try again&#8230;</string>
+    <string name="state_analyze_voice">Start to generate voice&#8230;</string>
+    <string name="state_analyze_content_empty">Content is empty, please try again&#8230;</string>
+    <string name="state_analyze_voice_error">Can\'t generate voice, please try again&#8230;</string>
+    <string name="state_analyze_language_not_support">The language(%1$s) doesn\'t support to speech now.</string>
+    <string name="state_analyze_sync_settings_start">Start to sync settings from Parent\'s side&#8230;</string>
+    <string name="state_analyze_sync_settings_success">Sync success!</string>
+    <string name="state_analyze_sync_settings_fail">Sync fail: %1$s</string>
+
+    <string name="ocr_to_speak_cannot_found_story">Can\'t found a story, please add a story first.</string>
+
+    <string name="preference_voice_title">Voice options</string>
+    <string name="preference_translate_title">Translate options</string>
+    <string name="preference_parent_control_title">Parent control</string>
+    <!--Voice language-->
+    <string name="preference_voice_language_title">Language region</string>
+    <string name="preference_voice_language_summary">Please select a language region</string>
+    <string name="preference_voice_language_default_value">en-US</string>
+    <string name="preference_google_voice_language_default_value">en_US</string>
+    <!--Voice gender-->
+    <string name="preference_voice_gender_title">Voice gender</string>
+    <string name="preference_voice_gender_summary">Please select a voice gender</string>
+    <string name="preference_voice_gender_default_value">1</string>
+    <!-- Translator-->
+    <string name="preference_translator_title">Translator</string>
+    <string name="preference_translator_summary">Please select a translator</string>
+    <string name="preference_translator_default_value">0</string>
+    <string name="translator_baidu">0</string>
+    <string name="translator_google">1</string>
+    <string name="translator_microsoft">2</string>
+    <!-- Translate enabler -->
+    <string name="preference_translate_enabler_title">Translate</string>
+    <!-- Translate language -->
+    <string name="preference_translate_language_title">Translate language</string>
+    <string name="preference_translate_language_summary">Please select a translate language</string>
+    <string name="preference_translate_language_default_value">en</string>
+
+    <!-- Speech to text -->
+    <string name="btn_title_command">Speaking</string>
+    <string name="btn_title_command_teddy">Hello\nTeddy</string>
+    <string name="btn_title_command_alexa">Hey\nAlexa</string>
+    <string name="btn_title_command_google">Okay\nGoogle</string>
+    <string name="btn_title_command_baidu">小度\n你好</string>
+    <string name="btn_title_new_message">New\nmessage</string>
+    <string name="btn_title_monitor_mode">Monitor mode\nstop</string>
+    <string name="btn_title_wifi_direct_mode">Wifi\ndirect</string>
+    <string name="scene_title_format">Scene: %1$s</string>
+    <string name="scene_mic_is_on">Please start speaking.</string>
+    <string name="stt_in_initial">Initializing STT client, please wait for a moment&#8230;</string>
+    <string name="stt_in_initial_cn">正在初始化语音转文字服务,请稍候.</string>
+
+    <!-- Speaker Recognition-->
+    <string name="speaker_recognition_sample_text">My voice is my passport verify me</string>
+    <string name="speaker_recognition_sample_text_tips">Notice: Read the phrase above to enroll your voice.
+        \nThe audio file should be at least 0 seconds long and no longer than 15 seconds.
+    Each person has only one ID and each ID must be recorded 3 times at least.</string>
+    <string name="btn_title_start_recording">Start recording</string>
+    <string name="btn_title_stop_recording">Stop recording</string>
+    <string name="btn_start_record_touch_down">Press to start record</string>
+    <string name="btn_start_record_touch_up">Release stop record</string>
+    <string name="btn_create_profile">Create Profile</string>
+    <string name="btn_get_all_profile">Get Profile</string>
+    <string name="btn_reset_profile">Reset Profile</string>
+    <string name="btn_delete_profile">Delete Profile</string>
+
+    <string name="msg_dont_modify_the_file">Please don\'t modify this file.</string>
+    <string name="msg_cant_connect_ftp_server">Can\'t connect the FTP server.</string>
+    <string name="msg_sn_invalid">The serial number is invalid.</string>
+    <string name="msg_ftp_sync_fail">Failed to upload the OCR_TTS settings</string>
+    <string name="msg_ftp_download_fail">Failed to download OCR_TTS settings</string>
+
+    <!-- Reread -->
+    <string name="reread_status_pls_start_speaking">Please speaking!</string>
+    <string name="reread_status_recording">Recording</string>
+    <string name="reread_status_playing">Playing</string>
+    <string name="reread_status_tips">Hold button to speak!</string>
+
+    <!-- Scene Settings -->
+    <string name="preference_speaking_language_title">Speaking language</string>
+    <string name="preference_speaking_language_summary">Please select a speaking language</string>
+    <string name="preference_speaking_language_default_value">en-US</string>
+    <string name="preference_recognition_language_title">Recognition language</string>
+    <string name="preference_recognition_language_summary">Please select a recognition language</string>
+    <string name="preference_recognition_language_default_value">en-US</string>
+
+    <!-- Main Settings -->
+    <string name="preference_server_ip_address_title">Server address</string>
+    <string name="preference_server_ip_address_summary">Please type server address which need to connect</string>
+    <string name="preference_server_ip_address_default_value">192.168.191.1</string>
+    <string name="preference_server_domain_title">Domain</string>
+    <string name="preference_server_domain_summary">(Nullable) Please type the domain</string>
+    <string name="preference_server_domain_default_value"></string>
+    <string name="preference_server_username_title">User name</string>
+    <string name="preference_server_username_summary">Please type the user name</string>
+    <string name="preference_server_username_default_value">Aaron</string>
+    <string name="preference_server_password_title">Password</string>
+    <string name="preference_server_password_summary">Please type the password</string>
+    <string name="preference_server_password_default_value">1</string>
+    <string name="preference_server_password_format">\u25CF</string>
+    <string name="preference_monitor_mode_time_title">Monitor mode warning frequency(mins)</string>
+    <string name="preference_monitor_mode_time_summary">Please set Monitor mode warning frequency</string>
+    <string name="preference_monitor_mode_time_default_value">30</string>
+    <string name="preference_monitor_mode_noise_title">Monitor Mode Noise Setting(dB)</string>
+    <string name="preference_monitor_mode_noise_summary">Please set Monitor Mode Noise Setting</string>
+    <string name="preference_monitor_mode_noise_default_value">50</string>
+    <!-- FTP -->
+    <string name="preference_ftp_server_ip_address_default_value">mhdqftp.wistron.com.tw</string>
+    <string name="preference_ftp_server_port_title">Port</string>
+    <string name="preference_ftp_server_port_summary">Please type the port</string>
+    <string name="preference_ftp_server_port_default_value">21</string>
+    <string name="preference_ftp_server_username_default_value">M-Polluxro</string>
+    <string name="preference_ftp_server_password_default_value">kv97drti</string>
+
+    <string name="luis_assistant_cmd_empty">\n\nI can\'t understand what you want to do, please try again.</string>
+    <string name="luis_assistant_cmd_empty_cn">\n\n我不理解你想要做什么,请重试.</string>
+    <string name="luis_assistant_cmd_empty_repeat">\n\nSorry, please try again.&#160;</string>
+    <string name="luis_assistant_cmd_empty_repeat_cn">\n\n抱歉,请再说一遍.&#160;</string>
+    <string name="luis_assistant_cmd_google_stt_error7">Sorry, I didn\'t catch that, please come that again.</string>
+    <string name="luis_assistant_cmd_google_stt_error7_cn">抱歉, 我没听清楚你说什么, 请再说一次.</string>
+    <string name="luis_assistant_alarm_success">Succeed in setting the alarm, %1$s</string>
+    <string name="luis_assistant_alarm_success_cn">闹钟. %1$s. 设置成功.</string>
+    <string name="luis_assistant_alarm_fail">Fail to set the alarm, %1$s</string>
+    <string name="luis_assistant_alarm_fail_cn">闹钟. %1$s. 设置失败.</string>
+    <string name="luis_assistant_function_not_support">Sorry, the function does not support for now.</string>
+    <string name="luis_assistant_function_not_support_cn">抱歉, 目前不支持此功能.</string>
+    <string name="luis_assistant_music_can_not_found">Can\'t find the music.</string>
+    <string name="luis_assistant_music_can_not_found_cn">找不到对应的歌曲.</string>
+    <string name="luis_assistant_music_not_start">Please play music first.</string>
+    <string name="luis_assistant_music_not_start_cn">请先播放一首歌曲.</string>
+    <string name="luis_assistant_weather_city_is_empty">The city name can\'t be empty, please try again.</string>
+    <string name="luis_assistant_weather_city_is_empty_cn">城市不能为空, 请重试.</string>
+    <string name="luis_assistant_weather_can_not_found_city">Can\'t recognize the city. %1$s. please try again.</string>
+    <string name="luis_assistant_weather_can_not_found_city_cn">不能识别此城市. %1$s. 请重试.</string>
+    <string name="luis_assistant_weather_can_not_get_conditions">Can\'t obtain the weather data. please try again.</string>
+    <string name="luis_assistant_weather_can_not_get_conditions_cn">未能查询到天气. 请重试.</string>
+    <string name="luis_assistant_weather_to_read_future_three_days">%1$s\'s weather in %2$s is. %3$s. The high temperature is. %4$s celsius. the low temperature is. %5$s celsius.</string>
+    <string name="luis_assistant_weather_to_read_future_three_days_cn">%1$s %2$s 的天气是. %3$s. 最高温度. %4$s 摄氏度. 最低温度. %5$s 摄氏度.</string>
+    <string name="luis_assistant_weather_to_read_fixed_day">The weather of %1$s. %2$s is. %3$s. The high temperature is. %4$s celsius. the low temperature is. %5$s celsius.</string>
+    <string name="luis_assistant_weather_to_read_fixed_day_cn">%2$s. %1$s. 的天气是. %3$s. 最高温度. %4$s 摄氏度. 最低温度. %5$s 摄氏度.</string>
+    <string name="luis_assistant_weather_to_read_weekend_first">This weekend\'s weather in %1$s.</string>
+    <string name="luis_assistant_weather_to_read_weekend_first_cn">%1$s. 周末的天气.</string>
+    <string name="luis_assistant_weather_to_read_weekend_last">&#160;%1$s is. %2$s. The high temperature is. %3$s celsius. the low temperature is. %4$s celsius.</string>
+    <string name="luis_assistant_weather_to_read_weekend_last_cn">&#160;%1$s 是. %2$s. 最高温度. %3$s 摄氏度. 最低温度. %4$s 摄氏度.</string>
+    <string name="luis_assistant_weather_tag_today">Today</string>
+    <string name="luis_assistant_weather_tag_today_cn">今天</string>
+    <string name="luis_assistant_weather_tag_tomorrow">Tomorrow</string>
+    <string name="luis_assistant_weather_tag_tomorrow_cn">明天</string>
+    <string name="luis_assistant_weather_tag_after_tomorrow">The day after tomorrow</string>
+    <string name="luis_assistant_weather_tag_after_tomorrow_cn">后天</string>
+    <string name="luis_assistant_weather_tag_saturday">Saturday</string>
+    <string name="luis_assistant_weather_tag_saturday_cn">周六</string>
+    <string name="luis_assistant_weather_tag_sunday">Sunday</string>
+    <string name="luis_assistant_weather_tag_sunday_cn">周日</string>
+    <string name="luis_assistant_weather_error">An error happened, please try again.</string>
+    <string name="luis_assistant_weather_error_cn">失败, 请重试.</string>
+    <string name="luis_assistant_places_from_is_empty">Can\'t find your current position, please specify a departure location.</string>
+    <string name="luis_assistant_places_from_is_empty_cn">未能获取当前位置, 请指定城市.</string>
+    <string name="luis_assistant_places_to_is_empty">Please specify a destination location.</string>
+    <string name="luis_assistant_places_to_is_empty_cn">请指定目的地.</string>
+    <string name="luis_assistant_places_error_title">Error.</string>
+    <string name="luis_assistant_places_error_title_cn">错误.</string>
+    <string name="luis_assistant_places_find_place_to_read">Your current position is %1$s.</string>
+    <string name="luis_assistant_places_find_place_to_read_cn">您当前的位置是 %1$s.</string>
+    <string name="luis_assistant_places_find_place_no_position_to_read">Can\'t find your current position, please try again.</string>
+    <string name="luis_assistant_places_find_place_no_position_to_read_cn">未能获取当前位置, 请重试.</string>
+    <string name="luis_assistant_places_can_not_get_travel_distance">Can\'t get the travel distance, please try again.</string>
+    <string name="luis_assistant_places_can_not_get_travel_distance_cn">未能获取距离, 请重试.</string>
+    <string name="luis_assistant_places_can_not_get_travel_duration">Can\'t get the travel time, please try again.</string>
+    <string name="luis_assistant_places_can_not_get_travel_duration_cn">未能获取耗费时间, 请重试.</string>
+    <string name="luis_assistant_places_to_read_distance">From %1$s to %2$s. distance is. %3$s kilometers.</string>
+    <string name="luis_assistant_places_to_read_distance_cn">从 %1$s 到 %2$s. 距离是. %3$s 公里.</string>
+    <string name="luis_assistant_places_to_read_duration">From %1$s to %2$s. will take.&#160;</string>
+    <string name="luis_assistant_places_to_read_duration_cn">从 %1$s 到 %2$s. 将耗时.&#160;</string>
+    <string name="luis_assistant_place_to_read_day">1 day&#160;</string>
+    <string name="luis_assistant_place_to_read_day_cn">一天&#160;</string>
+    <string name="luis_assistant_place_to_read_days">%1$s days&#160;</string>
+    <string name="luis_assistant_place_to_read_days_cn">%1$s 天&#160;</string>
+    <string name="luis_assistant_place_to_read_hour">1 hour&#160;</string>
+    <string name="luis_assistant_place_to_read_hour_cn">一小时&#160;</string>
+    <string name="luis_assistant_place_to_read_hours">%1$s hours&#160;</string>
+    <string name="luis_assistant_place_to_read_hours_cn">%1$s 小时&#160;</string>
+    <string name="luis_assistant_place_to_read_minute">1 minute&#160;</string>
+    <string name="luis_assistant_place_to_read_minute_cn">一分钟&#160;</string>
+    <string name="luis_assistant_place_to_read_minutes">%1$s minutes&#160;</string>
+    <string name="luis_assistant_place_to_read_minutes_cn">%1$s 分钟&#160;</string>
+    <string name="luis_assistant_place_to_read_by_car">by car.</string>
+    <string name="luis_assistant_place_to_read_by_car_cn">. 交通工具是汽车.</string>
+    <string name="luis_assistant_scene_is_null">\n\nCan\'t recognize the scene, please retry.</string>
+    <string name="luis_assistant_scene_is_null_cn">\n\n暂不支持此场景,请重试.</string>
+    <string name="luis_assistant_local_scenario_not_support">\n\nCan\'t recognize the local command, please retry.</string>
+    <string name="luis_assistant_local_scenario_not_support_cn">\n\n暂不支持此本地指令,请重试.</string>
+    <string name="luis_assistant_ocr_error_from_photo">Can\'t recognize the picture of the story, please try again.</string>
+    <string name="luis_assistant_ocr_error_from_photo_cn">不能识别故事,请重试.</string>
+    <string name="luis_assistant_ocr_error_gallery_to_next">Can\'t recognize the picture of the story, start to decode next picture.</string>
+    <string name="luis_assistant_ocr_error_gallery_to_next_cn">不能识别故事, 开始分析下一张图片.</string>
+    <string name="luis_assistant_ocr_error_from_gallery">Can\'t recognize the picture of the story, please try again.</string>
+    <string name="luis_assistant_ocr_error_from_gallery_cn">不能识别故事,请重试.</string>
+    <string name="luis_assistant_sync_new_message_failed">Sorry. sync failed. try again later.</string>
+    <string name="luis_assistant_sync_new_message_failed_cn">抱歉. 同步失败. 请稍候重试.</string>
+    <string name="luis_assistant_sync_new_message_initial">initializing&#8230;, please wait.</string>
+    <string name="luis_assistant_sync_new_message_initial_cn">正在初始化, 请稍候.</string>
+    <string name="luis_assistant_sync_new_message_updating">Updating the messages.</string>
+    <string name="luis_assistant_sync_new_message_updating_cn">正在更新消息.</string>
+    <string name="luis_assistant_sync_new_message_end">The end.</string>
+    <string name="luis_assistant_sync_new_message_end_cn">结束.</string>
+    <string name="luis_assistant_sync_new_message_no_message">No message left.</string>
+    <string name="luis_assistant_sync_new_message_no_message_cn">没有新消息.</string>
+    <string name="luis_assistant_face_emotion_hi">Hi.&#160;</string>
+    <string name="luis_assistant_face_emotion_hi_cn">您好.&#160;</string>
+    <string name="luis_assistant_face_emotion_face_msg">%1$s. I guess you are a %2$s year-old %3$s.&#160;</string>
+    <string name="luis_assistant_face_emotion_face_msg_cn">%1$s. 我猜您是一位 %2$s 岁的 %3$s.&#160;</string>
+    <string name="luis_assistant_face_emotion_face_mr">Mr</string>
+    <string name="luis_assistant_face_emotion_face_mr_cn">先生</string>
+    <string name="luis_assistant_face_emotion_face_ms">Ms</string>
+    <string name="luis_assistant_face_emotion_face_ms_cn">女士</string>
+    <string name="luis_assistant_face_emotion_face_male">man</string>
+    <string name="luis_assistant_face_emotion_face_male_cn">男士</string>
+    <string name="luis_assistant_face_emotion_face_female">woman</string>
+    <string name="luis_assistant_face_emotion_face_female_cn">女士</string>
+    <string name="luis_assistant_face_emotion_no_face">No face detected, please try again.</string>
+    <string name="luis_assistant_face_emotion_no_face_cn">未检测到人脸, 请重试.</string>
+    <string name="luis_assistant_face_emotion_no_emotion">No emotion detected.</string>
+    <string name="luis_assistant_face_emotion_no_emotion_cn">未检测到情绪.</string>
+    <string name="luis_assistant_face_emotion_emotion_msg">Are you feeling %1$s now?</string>
+    <string name="luis_assistant_face_emotion_emotion_msg_cn">现在您感到%1$s吗?</string>
+    <string name="luis_assistant_face_emotion_emotion_angry">angry</string>
+    <string name="luis_assistant_face_emotion_emotion_angry_cn">愤怒</string>
+    <string name="luis_assistant_face_emotion_emotion_contemptuous">contemptuous</string>
+    <string name="luis_assistant_face_emotion_emotion_contemptuous_cn">不屑</string>
+    <string name="luis_assistant_face_emotion_emotion_disgustful">disgustful</string>
+    <string name="luis_assistant_face_emotion_emotion_disgustful_cn">厌倦</string>
+    <string name="luis_assistant_face_emotion_emotion_fearful">fearful</string>
+    <string name="luis_assistant_face_emotion_emotion_fearful_cn">害怕</string>
+    <string name="luis_assistant_face_emotion_emotion_happy">happy</string>
+    <string name="luis_assistant_face_emotion_emotion_happy_cn">开心</string>
+    <string name="luis_assistant_face_emotion_emotion_neutral">neutral</string>
+    <string name="luis_assistant_face_emotion_emotion_neutral_cn">自然</string>
+    <string name="luis_assistant_face_emotion_emotion_sad">sad</string>
+    <string name="luis_assistant_face_emotion_emotion_sad_cn">伤心</string>
+    <string name="luis_assistant_face_emotion_emotion_surprising">surprising</string>
+    <string name="luis_assistant_face_emotion_emotion_surprising_cn">惊讶</string>
+    <string name="luis_assistant_memo_pardon">Pardon?</string>
+    <string name="luis_assistant_memo_pardon_cn">抱歉,请再说一遍?</string>
+    <string name="luis_assistant_memo_last_action_fail">Sorry. last action failed. Please retry your action again.</string>
+    <string name="luis_assistant_memo_last_action_fail_cn">抱歉. 上个动作失败. 请重试.</string>
+    <string name="luis_assistant_memo_other_help">Anything else i can help?</string>
+    <string name="luis_assistant_memo_other_help_cn">请问还有什么可以效劳的?</string>
+    <string name="luis_assistant_memo_connect_fail">I can\'t find the server. Connect failed and Stop the scene.</string>
+    <string name="luis_assistant_memo_connect_fail_cn">连接服务器失败. 将退出此场景.</string>
+    <string name="luis_assistant_memo_update_fail">Updated failed. I will try again.</string>
+    <string name="luis_assistant_memo_update_fail_cn">更新失败. 即将重新更新.</string>
+    <string name="luis_assistant_memo_initial">initializing, please wait.</string>
+    <string name="luis_assistant_memo_initial_cn">正在初始化, 请稍候.</string>
+    <string name="luis_assistant_memo_action_warning">Play messages or send messages?</string>
+    <string name="luis_assistant_memo_action_warning_cn">播放消息还是发送消息?</string>
+    <string name="luis_assistant_memo_record_stop">stop Record. please wait for a moment.</string>
+    <string name="luis_assistant_memo_record_stop_cn">停止录音. 请稍等.</string>
+    <string name="luis_assistant_memo_send_too_short">Sorry, the sentences are too short to send. Play memo or send a message?</string>
+    <string name="luis_assistant_memo_send_too_short_cn">抱歉, 信息太短而无法发送. 播放消息还是发送消息?</string>
+    <string name="luis_assistant_memo_no_message_left">No message left. Updating the messages ,please wait .</string>
+    <string name="luis_assistant_memo_no_message_left_cn">没有新消息. 正在更新,请稍等.</string>
+    <string name="luis_assistant_memo_update_msg">Updating the messages. </string>
+    <string name="luis_assistant_memo_update_msg_cn">正在更新消息. </string>
+    <string name="luis_assistant_memo_over">Memo is over!</string>
+    <string name="luis_assistant_memo_over_cn">消息场景结束!</string>
+    <string name="luis_assistant_game_start">Let\'s play a Quiz game!</string>
+    <string name="luis_assistant_game_start_cn">游戏开始!</string>
+    <string name="luis_assistant_game_question_number">Question %1$d.</string>
+    <string name="luis_assistant_game_question_number_cn">问题 %1$d.</string>
+    <string name="luis_assistant_game_answer_right">Great!</string>
+    <string name="luis_assistant_game_answer_right_cn">回答正确!</string>
+    <string name="luis_assistant_game_completed">Game is Completed!</string>
+    <string name="luis_assistant_game_completed_cn">游戏结束!</string>\
+    <string name="luis_assistant_game_answer_wrong">It is wrong or unclear!Try again</string>
+    <string name="luis_assistant_game_answer_wrong_cn">回答错误!请重试!</string>
+    <string name="luis_assistant_game_actual_answer">Actually!The answer is&#160;</string>
+    <string name="luis_assistant_game_actual_answer_cn">正确答案是&#160;</string>
+    <string name="luis_assistant_game_over">Game is over!</string>
+    <string name="luis_assistant_game_over_cn">游戏结束!</string>
+    <string name="luis_assistant_speaker_recognition_please_read">Please say anything to recognition of your identity.&#160;</string>
+    <string name="luis_assistant_speaker_recognition_please_read_cn">请说话用于识别你的身份.&#160;</string>
+    <string name="luis_assistant_speaker_result_safe">Safe.</string>
+    <string name="luis_assistant_speaker_result_safe_cn">安全.</string>
+    <string name="luis_assistant_speaker_result_not_safe">Please don\'t open the door.</string>
+    <string name="luis_assistant_speaker_result_not_safe_cn">请不要开门.</string>
+    <string name="luis_assistant_language_setting_unsupport">The language doesn\'t support now.</string>
+    <string name="luis_assistant_language_setting_unsupport_cn">暂时不支持此语言.</string>
+    <string name="luis_assistant_language_setting_language_null">Please specify the target language.</string>
+    <string name="luis_assistant_language_setting_language_null_cn">请指定要切换的目标语言.</string>
+    <string name="luis_assistant_language_setting_success_to_switch">Succeed in switching the language.</string>
+    <string name="luis_assistant_language_setting_success_to_switch_cn">语言切换成功.</string>
+    <string name="luis_assistant_language_get_current">English</string>
+    <string name="luis_assistant_language_get_current_cn">中文</string>
+    <string name="luis_assistant_philips_hue_searching">Searching for a hue bridge, please wait!</string>
+    <string name="luis_assistant_philips_hue_searching_cn">开始搜索飞利浦网桥,请稍等.</string>
+    <string name="luis_assistant_philips_hue_searching_find_bridge">Find a hue bridge, please continue!</string>
+    <string name="luis_assistant_philips_hue_searching_find_bridge_cn">找到飞利浦网桥,请继续.</string>
+    <string name="luis_assistant_philips_hue_searching_not_find_bridge">Can\'t find hue bridge, please continue!</string>
+    <string name="luis_assistant_philips_hue_searching_not_find_bridge_cn">未能发现飞利浦网桥,请继续.</string>
+    <string name="luis_assistant_philips_hue_which_light_to_control">Which light do you want to control?</string>
+    <string name="luis_assistant_philips_hue_which_light_to_control_cn">你想要控制哪盏灯?</string>
+    <string name="luis_assistant_philips_hue_light_not_found">Can\'t find the light, please try again.</string>
+    <string name="luis_assistant_philips_hue_light_not_found_cn">找不到指定的灯,请重试.</string>
+    <string name="luis_assistant_philips_hue_bridge_not_found">Can\'t find the bridge, please try again.</string>
+    <string name="luis_assistant_philips_hue_bridge_not_found_cn">找不到网桥,请重试.</string>
+    <string name="luis_assistant_philips_hue_no_need_update">No need to update.</string>
+    <string name="luis_assistant_philips_hue_no_need_update_cn">无需更新.</string>
+    <string name="luis_assistant_email_size_empty">No new mail.&#160;</string>
+    <string name="luis_assistant_email_size_empty_cn">没有新邮件.&#160;</string>
+    <string name="luis_assistant_email_got">You have %1$d new mail.&#160;</string>
+    <string name="luis_assistant_email_got_cn">你有%1$d封新邮件.&#160;</string>
+    <string name="luis_assistant_email_subject_about">about %1$s.&#160;</string>
+    <string name="luis_assistant_email_subject_about_cn">关于%1$s.&#160;</string>
+    <string name="luis_assistant_email_sender_from">from %1$s.&#160;</string>
+    <string name="luis_assistant_email_sender_from_cn">来自于 %1$s.&#160;</string>
+    <string name="luis_assistant_email_to_read_require">Do you want to listen to e-mails.&#160;\n</string>
+    <string name="luis_assistant_email_to_read_require_cn">是否需要读出邮件内容.&#160;\n</string>
+    <string name="luis_assistant_email_read_next">Do you want to continue to read next e-mail?&#160;\n</string>
+    <string name="luis_assistant_email_read_next_cn">是否继续读下一封邮件?&#160;\n</string>
+    <string name="luis_assistant_email_read_finish">\nFinish reading.&#160;\n</string>
+    <string name="luis_assistant_email_read_finish_cn">\n邮件已读完.&#160;\n</string>
+    <string name="luis_assistant_email_time_prefix">From %1$s.&#160;</string>
+    <string name="luis_assistant_email_time_prefix_cn">从 %1$s.&#160;</string>
+    <string name="luis_assistant_datetime_datetime_read">It\'s %1$s in %2$s.</string>
+    <string name="luis_assistant_datetime_datetime_read_cn">%2$s现在是%1$s.</string>
+    <string name="luis_assistant_datetime_local_datetime_read">It\'s %1$s.</string>
+    <string name="luis_assistant_datetime_local_datetime_read_cn">现在是%1$s.</string>
+    <string name="luis_assistant_datetime_datetime_date_error">Sorry, I don\'t know the date in %1$s.</string>
+    <string name="luis_assistant_datetime_datetime_date_error_cn">抱歉, 我不知道%1$s的日期.</string>
+    <string name="luis_assistant_datetime_datetime_time_error">Sorry, I don\'t know the time in %1$s.</string>
+    <string name="luis_assistant_datetime_datetime_time_error_cn">抱歉, 我不知道%1$s的时间.</string>
+    <string name="luis_assistant_news_cannot_get">Sorry, I can\'t get the news.</string>
+    <string name="luis_assistant_news_cannot_get_cn">抱歉, 我未能获取到新闻.</string>
+    <string name="luis_assistant_news_speaking_start">The headlines from %1$s.</string>
+    <string name="luis_assistant_news_speaking_start_cn">%1$s 今日头条.</string>
+    <string name="luis_assistant_news_speaking_end">That\'s all from %1$s.</string>
+    <string name="luis_assistant_news_speaking_end_cn">以上是来自%1$s的今日头条.</string>
+    <string name="luis_assistant_youtube_initial_failed">Youtube player initial failed, please try again.</string>
+    <string name="luis_assistant_youtube_initial_failed_cn">Youtube初始化失败，请重试.</string>
+    <string name="luis_assistant_youtube_search_title_empty">Please specify a keyword to search in Youtube.</string>
+    <string name="luis_assistant_youtube_search_title_empty_cn">请指定一个搜索youtube视频的关键字.</string>
+    <string name="luis_assistant_youtube_no_resource_found">video not found.</string>
+    <string name="luis_assistant_youtube_no_resource_found_cn">找不到指定的视频资源.</string>
+    <string name="luis_assistant_youtube_has_not_previous">This is the first video.</string>
+    <string name="luis_assistant_youtube_has_not_previous_cn">这是第一个视频.</string>
+    <string name="luis_assistant_youtube_has_not_next">This is the last video.</string>
+    <string name="luis_assistant_youtube_has_not_next_cn">这是最后一个视频.</string>
+    <string name="luis_assistant_adjust_volume_max">This is the max volume.</string>
+    <string name="luis_assistant_adjust_volume_max_cn">这是最大音量.</string>
+    <string name="luis_assistant_adjust_volume_min">This is the min volume.</string>
+    <string name="luis_assistant_adjust_volume_min_cn">这是最小音量.</string>
+
+    <string name="luis_assistant_network_unavailable">Network unavailable, please check you network!</string>
+    <string name="luis_assistant_network_unavailable_cn">网络不可用，请检查你的网络连接！</string>
+    <string name="luis_assistant_operate_is_not_support">Sorry, the operation is not support yet.</string>
+    <string name="luis_assistant_operate_is_not_support_cn">抱歉，此操作暂不支持.</string>
+    <string name="luis_assistant_operate_success">Success.</string>
+    <string name="luis_assistant_operate_success_cn">操作成功.</string>
+    <string name="luis_assistant_operate_fail">Failed.</string>
+    <string name="luis_assistant_operate_fail_cn">操作失败.</string>
+
+    <string name="luis_log_music_started">Music has started.</string>
+    <string name="luis_log_music_stopped">Music has stopped.</string>
+    <string name="luis_log_music_paused">Music has paused.</string>
+    <string name="luis_log_music_resumed">Music has resumed.</string>
+    <string name="luis_log_music_repeat">Repeat the music.</string>
+    <string name="luis_log_music_next">Switched to the next music.</string>
+    <string name="luis_log_music_previous">Switched to the previous music.</string>
+    <string name="luis_log_monitor_start">Monitor mode has started.</string>
+    <string name="luis_log_monitor_stop">Monitor mode has stopped.</string>
+    <string name="luis_log_philips_hue_connecting">Connecting&#8230;</string>
+    <string name="luis_log_philips_hue_searching">Searching&#8230;</string>
+    <string name="luis_log_philips_hue_access_point_found">Found %1$d access points.</string>
+    <string name="luis_log_philips_hue_authentication_required">Authentication Required.</string>
+    <string name="luis_log_philips_hue_bridge_connected">Bridge connected&#8230;</string>
+    <string name="luis_log_philips_hue_connection_resumed">Connection resumed&#8230;</string>
+    <string name="luis_log_philips_hue_connection_lost">Connection lost&#8230;</string>
+    <string name="luis_log_philips_hue_error_happen">Error(%1$d): %2$s</string>
+    <string name="luis_log_philips_hue_parsing_errors">Parsing errors</string>
+
+    <!-- SVA -->
+    <string name="sva_training_tips">Choose a class of models. Teddy. Alexa. or. Google.</string>
+    <string name="sva_training_text">Hello. %1$s. Please say %2$s %3$d times. 3 seconds per recording. start recording."</string>
+
+    <!-- Normal -->
+    <string name="sva_to_say_hello_pre">Hello %1$s.&#160;</string>
+    <string name="sva_to_say_hello_pre_cn">您好 %1$s.&#160;</string>
+    <string name="sva_to_say_hello">what can I do for you?</string>
+    <string name="sva_to_say_hello_cn">请问有什么可以帮您的?</string>
+
+    <string name="phone_msg_got_new">You have got a new message: %1$s</string>
+    <string name="phone_msg_got_new_cn">您有一条新消息: %1$s</string>
+
+    <!-- News API rights -->
+    <string name="news_api_rights">News powered by https://newsapi.org/</string>
+
+    <!-- Bob for AVS -->
+    <string name="avs_request_fail">Send request failure, please re-try</string>
+    <string name="avs_request_fail_cn">发送请求失败，请重试</string>
+    <string name="avs_analyse_return_anwser_fail">Failed to Analytical return result, please re-try</string>
+    <string name="avs_analyse_return_anwser_fail_cn">返回结果解析失败，请重试</string>
+    <string name="avs_request_nothing_came_back">Nothing came back, please re-try</string>
+    <string name="avs_request_nothing_came_back_cn">没有返回任何信息，请重试</string>
+    <string name="avs_request_http_internal_error">Amazon internal error, please re-try</string>
+    <string name="avs_request_http_internal_error_cn">亚马逊内部错误，请重试</string>
+    <string name="avs_request_bad_request">Bad Request, please re-try</string>
+    <string name="avs_request_bad_request_cn">错误的请求，请重试</string>
+
+    <!-- Face recognition-->
+    <string name="menu_face_recognition_enable">Enable face recognition</string>
+    <string name="menu_face_recognition_disable">Disable face recognition</string>
+    <string name="menu_face_recognition_settings">Face recognition settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_photo">AddPhoto</string>
+    <string name="title_activity_image_confirmation">ImageConfirmation</string>
+    <string name="title_activity_choose_user">ChooseUser</string>
+    <string name="title_activity_live_recognition">LiveRecognition</string>
+    <string name="description">Description</string>
+
+    <!-- Google assistant -->
+    <string name="google_assistant_converse_error">Sorry. an error occurred on the stream, please try again.</string>
+    <string name="google_assistant_converse_error_cn">抱歉. 有错误发生, 请重试.</string>
+
+    <string name="err_net_msg">internet access failed, please retry</string>
+    <string name="voice_err_msg">recognize error, please retry</string>
+    <string name="voice_err_msg_cn">识别错误， 请重试！</string>
+    <string name="dcs_need_to_login">需要登录百度帐号进行授权</string>
+
+</resources>

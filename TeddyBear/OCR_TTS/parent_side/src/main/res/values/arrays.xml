@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Reserved -->
+    <string-array name="translate_entries">
+        <item>en</item>
+        <item>zh</item>
+        <item>cht</item>
+    </string-array>
+
+    <!-- Voice gender -->
+    <string-array name="preference_voice_gender_entries_both">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="preference_voice_gender_values_both">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="preference_voice_gender_entries_male">
+        <item>Male</item>
+    </string-array>
+    <string-array name="preference_voice_gender_values_male">
+        <item>0</item>
+    </string-array>
+
+    <string-array name="preference_voice_gender_entries_female">
+        <item>Female</item>
+    </string-array>
+    <string-array name="preference_voice_gender_values_female">
+        <item>1</item>
+    </string-array>
+
+    <!-- Language region -->
+    <string-array name="preference_voice_language_entries">
+        <item>English (United States)</item>
+        <item>English (Australia)</item>
+        <item>English (Canada)</item>
+        <item>English (India)</item>
+        <item>English (United Kingdom)</item>
+        <item>中文 (简体)</item>
+        <item>中文 (繁體)</item>
+        <item>中文 (香港)</item>
+        <item>日本語</item>
+        <item>Deutsch (Deutschland)</item>
+        <item>Français (France)</item>
+        <item>Français (Canada)</item>
+        <item>Português (Brasil)</item>
+        <item>Italiano (Italia)</item>
+        <item>Español (España)</item>
+        <item>Español (México)</item>
+        <item>Русский</item>
+    </string-array>
+    <string-array name="preference_voice_language_values">
+        <item>en-US</item>
+        <item>en-AU</item>
+        <item>en-CA</item>
+        <item>en-IN</item>
+        <item>en-GB</item>
+        <item>zh-CN</item>
+        <item>zh-TW</item>
+        <item>zh-HK</item>
+        <item>ja-JP</item>
+        <item>de-DE</item>
+        <item>fr-FR</item>
+        <item>fr-CA</item>
+        <item>pt-BR</item>
+        <item>it-IT</item>
+        <item>es-ES</item>
+        <item>es-MX</item>
+        <item>ru-RU</item>
+    </string-array>
+    <!-- English -->
+    <string-array name="preference_voice_language_entries_english">
+        <item>English (United States)</item>
+        <item>English (Australia)</item>
+        <item>English (Canada)</item>
+        <item>English (India)</item>
+        <item>English (United Kingdom)</item>
+    </string-array>
+    <string-array name="preference_voice_language_values_english">
+        <item>en-US</item>
+        <item>en-AU</item>
+        <item>en-CA</item>
+        <item>en-IN</item>
+        <item>en-GB</item>
+    </string-array>
+    <!--Chinese -->
+    <string-array name="preference_voice_language_entries_chinese">
+        <item>中文 (简体)</item>
+        <item>中文 (繁體)</item>
+        <item>中文 (香港)</item>
+    </string-array>
+    <string-array name="preference_voice_language_values_chinese">
+        <item>zh-CN</item>
+        <item>zh-TW</item>
+        <item>zh-HK</item>
+    </string-array>
+    <!-- Japan-->
+    <string-array name="preference_voice_language_entries_japan">
+        <item>日本語</item>
+    </string-array>
+    <string-array name="preference_voice_language_values_japan">
+        <item>ja-JP</item>
+    </string-array>
+    <!-- Germany-->
+    <string-array name="preference_voice_language_entries_germany">
+        <item>Deutsch (Deutschland)</item>
+    </string-array>
+    <string-array name="preference_voice_language_values_germany">
+        <item>de-DE</item>
+    </string-array>
+    <!-- France-->
+    <string-array name="preference_voice_language_entries_france">
+        <item>Français (France)</item>
+        <item>Français (Canada)</item>
+    </string-array>
+    <string-array name="preference_voice_language_values_france">
+        <item>fr-FR</item>
+        <item>fr-CA</item>
+    </string-array>
+    <!-- Portuguese -->
+    <string-array name="preference_voice_language_entries_portuguese">
+        <item>Português (Brasil)</item>
+    </string-array>
+    <string-array name="preference_voice_language_values_portuguese">
+        <item>pt-BR</item>
+    </string-array>
+    <!-- Italia -->
+    <string-array name="preference_voice_language_entries_italia">
+        <item>Italiano (Italia)</item>
+    </string-array>
+    <string-array name="preference_voice_language_values_italia">
+        <item>it-IT</item>
+    </string-array>
+    <!-- Espanol -->
+    <string-array name="preference_voice_language_entries_espanol">
+        <item>Español (España)</item>
+        <item>Español (México)</item>
+    </string-array>
+    <string-array name="preference_voice_language_values_espanol">
+        <item>es-ES</item>
+        <item>es-MX</item>
+    </string-array>
+    <!-- Russian -->
+    <string-array name="preference_voice_language_entries_russian">
+        <item>Русский</item>
+    </string-array>
+    <string-array name="preference_voice_language_values_russian">
+        <item>ru-RU</item>
+    </string-array>
+
+    <!-- Google language region -->
+    <string-array name="preference_google_voice_language_entries">
+        <item>Bengali (Bangladesh)</item>
+        <item>Chinese (China)</item>
+        <item>Chinese (Taiwan)</item>
+        <item>Danish (Denmark)</item>
+        <item>Dutch (Netherlands)</item>
+        <item>English (Australia)</item>
+        <item>English (India)</item>
+        <item>English (United Kingdom)</item>
+        <item>English (United States)</item>
+        <item>Finnish (Finland)</item>
+        <item>French (France)</item>
+        <item>German (Germany)</item>
+        <item>Hindi (India)</item>
+        <item>Hungarian (Hungary)</item>
+        <item>Indonesian (Indonesia)</item>
+        <item>Italian (Italy)</item>
+        <item>Japanese (Japan)</item>
+        <item>Korean (South Korea)</item>
+        <item>Norwegian (Norway)</item>
+        <item>Polish (Poland)</item>
+        <item>Portuguese (Brazil)</item>
+        <item>Russian (Russia)</item>
+        <item>Spanish (Spain)</item>
+        <item>Spanish (United States)</item>
+        <item>Swedish (Sweden)</item>
+        <item>Thai (Thailand)</item>
+        <item>Turkish (Turkey)</item>
+        <item>Vietnamese (Vietnam)</item>
+    </string-array>
+    <string-array name="preference_google_voice_language_values">
+        <item>bn_BD</item>
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+        <item>da_DK</item>
+        <item>nl_NL</item>
+        <item>en_AU</item>
+        <item>en_IN</item>
+        <item>en_GB</item>
+        <item>en_US</item>
+        <item>fi_FI</item>
+        <item>fr_FR</item>
+        <item>de_DE</item>
+        <item>hi_IN</item>
+        <item>hu_HU</item>
+        <item>in_ID</item>
+        <item>it_IT</item>
+        <item>ja_JP</item>
+        <item>ko_KR</item>
+        <item>nb_NO</item>
+        <item>pl_PL</item>
+        <item>pt_BR</item>
+        <item>ru_RU</item>
+        <item>es_ES</item>
+        <item>es_US</item>
+        <item>sv_SE</item>
+        <item>th_TH</item>
+        <item>tr_TR</item>
+        <item>vi_VN</item>
+    </string-array>
+
+    <!-- Translate language -->
+    <string-array name="preference_translate_language_entries">
+        <item>English</item>
+        <item>中文简体</item>
+        <item>中文繁體</item>
+        <item>日本語</item>
+        <item>Deutsch</item>
+        <item>Français</item>
+        <item>Português</item>
+        <item>Italiano</item>
+        <item>Español</item>
+        <item>Русский</item>
+    </string-array>
+    <string-array name="preference_translate_language_values">
+        <item>en</item>
+        <item>zh</item>
+        <item>cht</item>
+        <item>jp</item>
+        <item>de</item>
+        <item>fra</item>
+        <item>pt</item>
+        <item>it</item>
+        <item>spa</item>
+        <item>ru</item>
+    </string-array>
+
+    <!-- Translator -->
+    <string-array name="preference_translator_entries">
+        <item>Baidu</item>
+        <item>Google</item>
+        <item>Microsoft</item>
+    </string-array>
+    <string-array name="preference_translator_values">
+        <item>@string/translator_baidu</item>
+        <item>@string/translator_google</item>
+        <item>@string/translator_microsoft</item>
+    </string-array>
+
+    <!-- Speaking language -->
+    <string-array name="preference_speaking_language_entries">
+        <item>English (United States)</item>
+        <item>English (United Kingdom)</item>
+        <item>中文 (简体)</item>
+        <item>Deutsch (Deutschland)</item>
+        <item>Français (France)</item>
+        <item>Italiano (Italia)</item>
+        <item>Español (España)</item>
+    </string-array>
+    <string-array name="preference_speaking_language_values">
+        <item>en-US</item>
+        <item>en-GB</item>
+        <item>zh-CN</item>
+        <item>de-DE</item>
+        <item>fr-FR</item>
+        <item>it-IT</item>
+        <item>es-ES</item>
+    </string-array>
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wistron.demo.tool.teddybear.parent_side">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- For bluetooth discovery -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/teddy_bear_parent"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name="ParentSideApplication">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ocr_tts.OcrTtsSettingsActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/menu_item_ocr_tts_settings"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".useless.MonitorModeSettingsActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/menu_item_monitor_mode_settings"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".MonitorModeActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/menu_item_monitor_mode_settings"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".useless.SettingsActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/menu_item_settings"
+            android:screenOrientation="nosensor" />
+
+        <service android:name=".MonitorModeService" />
+
+        <activity
+            android:name=".parent_app.MessageScene"
+            android:configChanges="orientation|screenSize"
+            android:label="MessageScene"
+            android:screenOrientation="nosensor"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ChildrenManagementActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/menu_item_children_management"
+            android:screenOrientation="nosensor"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".EnrollSpeaker"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/menu_item_enroll_speaker"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".UsersIdentificationByBluetoothActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/menu_item_sva_user_management"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".wifi_settings.ui.SetupActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/menu_item_settings"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".wifi_settings.ui.SetupWifiActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/menu_item_settings"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".avs.AccessTokenActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/avs_login"
+            android:screenOrientation="nosensor" />
+
+        <!--
+        android:theme="@android:style/Theme.NoDisplay"
+        android:host="com.wistron.demo.tool.teddybear.parent_side"
+        -->
+        <activity
+            android:name="com.amazon.identity.auth.device.workflow.WorkflowActivity"
+            android:allowTaskReparenting="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="com.wistron.demo.tool.teddybear.parent_side"
+                    android:scheme="amzn" />
+            </intent-filter>
+        </activity>
+
+        <!-- Reserved:  Notification listener service -->
+        <service
+            android:name=".sync_msg_by_bt.NotificationTransferService"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".sync_msg_by_bt.NotificationAccessSettingsActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/demo_item_notification_access"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".light_bulb_control.LightBulbControllerActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".avs.AvsLoginActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="@string/avs_login" />
+        <activity android:name=".BaseLoginActivity" />
+        <activity android:name=".dcs.DcsLoginActivity" />
+        <activity android:name=".avs.AvsLoginActivityEx"></activity>
+    </application>
+
+</manifest>

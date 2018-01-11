@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/menu_item_scene_settings">
+
+    <ListPreference
+        android:defaultValue="@string/preference_speaking_language_default_value"
+        android:entries="@array/preference_speaking_language_entries"
+        android:entryValues="@array/preference_speaking_language_values"
+        android:key="stt_language"
+        android:persistent="true"
+        android:summary="@string/preference_speaking_language_summary"
+        android:title="@string/preference_speaking_language_title" />
+
+    <ListPreference
+        android:defaultValue="@string/preference_recognition_language_default_value"
+        android:entries="@array/preference_voice_language_entries"
+        android:entryValues="@array/preference_voice_language_values"
+        android:key="tts_language"
+        android:persistent="true"
+        android:summary="@string/preference_recognition_language_summary"
+        android:title="@string/preference_recognition_language_title" />
+
+</PreferenceScreen>

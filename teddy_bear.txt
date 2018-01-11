@@ -1,0 +1,519 @@
+git clone ssh://King_D_Liu@git-01.wistron.com:29418/Handheld_Tools/APP_Tools/ -b master --single-branch
+
+git push origin HEAD:refs/for/master
+
+git pull origin master
+ #Description:[TeddyBear V1.7.7.1]:1. add DuerOS service.
+ #Date: 2017-10-12
+ #Author: Ivan_JL_Zhang
+ #Commit Reason: add new test item|function change.
+ #Function Area:[WistronTool]
+
+ #Description:[TeddyBear V1.7.7]:1. add baidu stt/tts service;2. add baidu wakeup engine.
+ #Date: 2017-09-15
+ #Author: Ivan_JL_Zhang
+ #Commit Reason: add new test item|function change.
+ #Function Area:[WistronTool]
+
+
+ #Description: [TeddyBear V1.7.6.1 & V1.7.6.2] 1. Fixed a string value.
+ #Date: 2017-08-31
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.7.6.1 & V1.7.6.2] 1. Add a configure item(WifiSettingTriggerKeyCode) to trigger wifi direct mode; 2. Add a button to trigger Wifi direct mode; 3.Add a configure item(UimKeywordToTrigger) to set which action will be triggered when a Uim keyword has been detected; 4. you can load a UIM sound module regardless of the name.
+ #Date: 2017-06-26
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.7.6] 1. <AVS> Added user account switch function; 2. Added Google assistant function.
+ #Date: 2017-05-19
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.7.5] 1. <AVS> Fixed an issue: refused_stream error.
+ #Date: 2017-04-08
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.7.5] 1. <SVA> release V1.7.5: added support for uim recognition.
+ #Date: 2017-04-07
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.7.4.1] 1. <SVA> Add recognition function for UIM model.
+ #Date: 2017-03-25
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.7.4.1] 1. Fixed an issue: AVS response voice is incomplete sometimes.
+ #Date: 2017-03-22
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.7.4] 1. Add off-line mode test for some scenarios(Music,DateTime,AdjustVolume); 2. Add some voice commands to adjust volume.
+ #Date: 2017-03-17
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.7.3] 1. To control youtube video during playing; 2. Improved the voice command in "Music" scenario.
+ #Date: 2017-03-10
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.7.2.1] 1. Add a Scenario: play videos in Youtube; 2. Separate the LampBulb function from a luis scenario.
+ #Date: 2017-03-03
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+
+ #Description: [TeddyBear V1.7.2] 1. Fixed an issue: Microsoft TTS service is unavailable.
+ #Date: 2017-02-27
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.7.0] 1. Add SVA buffering feature.
+ #Date: 2017-02-10
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.7.0] 1. Sync the notification of special apps in Android Phone to Teddy bear by bluetooth; 2. Add a enableSyncNotification parameter in config file.
+ #Date: 2017-01-20
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.6.9] 1. Replace Speech service key with new Azure subscription keys; 2. update Speech, Face, Vision library.
+ #Date: 2017-01-16
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.6.9] 1. Replace all cognitive service keys except Speech service with new Azure subscription keys; 2. Add Face frame in face identification surface.
+ #Date: 2017-01-13
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.6.7] 1. Add google TTS funcion in "Tell me a story" scenario.
+ #Date: 2016-12-23
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.6.6] 1. Improved the SVA function: updated the register section; updated the merge and recognition section;
+ #Date: 2016-12-09
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.6.5] 1. Add News scenario; 2. Add "Google translate" in "Tell me a story" scenario.
+ #Date: 2016-11-25
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.6.4.1] 1. Improved SVA function: support "Hey Alexa".
+ #Date: 2016-11-22
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.6.4] 1. Improved DateTimeResponseScene scenario; 2. Improved SVA function.
+ #Date: 2016-11-18
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.6.3.1] 1. Add DateTimeResponseScene scenario; 2. Improved LuisPlacesScene and LuisWeatherScene scenario using new API interface.
+ #Date: 2016-11-18
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+
+ #Description: [TeddyBear V1.6.3] 1. Improved google cloud speech function; 2. Fixed some bugs in "Hi teddy", "Game", "Memo" scenarios.
+ #Date: 2016-11-11
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.6.2] 1. Add a TtsEngine parameter in config file: you can set TTS engine to Microsoft or Google.
+ #Date: 2016-10-29
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.6.1] 1. Fixed the bug: No need to searching BT device in UDM speaker recognition.
+ #Date: 2016-10-26
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.6.1] 1. Fixed the bug: error 7 when using google stt engine.
+ #Date: 2016-10-21
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.6.3] 1. Fixed the bug: bluetooth searching need system permission; 2.Fixed the bug: Hi teddy scenario can't take picture; 3. Fixed the bug: music not pause when say "Hello <>, what can I do for you."
+ #Date: 2016-10-17
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.6.0] 1. Fixed the bug on parent side: can't delete the last SVA user map item.
+ #Date: 2016-10-10
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.6.0] 1. Improve SVA user identification by Bluetooth; 2. improve LED function .
+ #Date: 2016-09-30
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.5.9] 1. Improve SVA user identification by bluetooth .
+ #Date: 2016-09-30
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.5.9] 1. Add Cloud storage(Qiniu) for sync settings between Child and parent .
+ #Date: 2016-09-29
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.5.9] 1. Add speaker recognition by the nearest bluetooth.
+ #Date: 2016-09-23
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.5.8.2] 1. Fixed SVA bug during a scenario; 2. Fixed E-Mail issue
+ #Date: 2016-09-22
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+
+ #Description: [TeddyBear V1.5.8.1] 1. Add Wifi-setup function using Bluetooth socket.
+ #Date: 2016-09-20
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.5.8] 1. Add the ability of reading email's content.
+ #Date: 2016-09-19
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.5.8] 1. Change UI styles.
+ #Date: 2016-09-17
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.5.8] 1. Improve SVA function: Add a register voice scenario for other user(Supports up to 4 users, include the first user), contains add/remove user function.
+ #Date: 2016-09-16
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.5.8] 1. Integrate SSR function into app: App will track the direction of audio sources and lighting the red light in the direction; 2. Fixed the issue of Email scenario: app spoke the start time using UTC time, not system time.
+ #Date: 2016-09-16
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.5.7] 1. Integrate SVA function into app: say "hello teddy" to resume a to accept the voice command.
+ #Date: 2016-09-09
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+
+ #Description: [TeddyBear V1.5.7] 1. Add Email scenario: you can get hwo many emails from you last query. moreover by subject or sender keyword.
+ #Date: 2016-09-06
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+
+ #Description: [TeddyBear V1.5.6.6] 1. Adjust some google speech recognition parameters.
+ #Date: 2016-08-30
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.5.6.3] 1. Add a config file to set Stt engine and threshold; 2. Add a resume order to let APP accept the voice command: say "hello teddy".
+ #Date: 2016-08-19
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.5.6] 1. Add a function to control Philips Hue lights; 2. To control YeeLight; 3. Add LED lights function on Pando.
+ #Date: 2016-08-05
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.5.4] 1. Replace FTP with Azure storage service for Child and Parent side;
+ #Date: 2016-07-25
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.5.4] 1. Replace FTP with Azure storage service.
+ #Date: 2016-07-25
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.5.4] 1. Fixed some issues: add LUIS params when create STT.
+ #Date: 2016-07-23
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.5.4] 1. It support Chinese language now.
+ #Date: 2016-07-13
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.5.3] 1. Fixed some issue in "Play game" and "Play music" scenario.
+ #Date: 2016-07-07
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.5.2] 1. Add LUIS function in both "play memo" and "play game" scenario.
+ #Date: 2016-07-06
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.5.1] 1. Updated the entry command of scenario: Using custom LUIS to analyze.
+ #Date: 2016-06-10
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.5.0] 1. Add LUIS scenario: Map.
+ #Date: 2016-05-27
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.4.9.4] 1. Improve LUIS Weather function; 2. Improve "Play memo" function.
+ #Date: 2016-05-26
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.4.9.3] 1. Add LUIS handler: Alarm, Music;
+ #Date: 2016-05-25
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.4.9] 1. Update "Children management" input limitation; 2. remove the line break for English story;
+ #Date: 2016-05-20
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.4.8.3] 1. Improve Reread function; 2. update "Tell me a story" scenario;
+ #Date: 2016-05-19
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.4.8.2] 1. Add "Tell me a story" scenario; 2. improve LED function.
+ #Date: 2016-05-18
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.4.8.1] 1. Improve FTP implement; 2. auto commit SN from child's side; 3. Add LED function;
+ #Date: 2016-05-17
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.4.8.3] 1. Fixed some issues.
+ #Date: 2016-05-19
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.4.7.8] 1. Add boot function;
+ #Date: 2016-05-13
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.4.7.7] 1. Update reread function
+ #Date: 2016-05-12
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.4.7.5] 1. Replace a long warning tone; 2. UI issue fix; 3. Fix app force exit issue.
+ #Date: 2016-05-12
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.4.7.4] 1. Fixed some issues in STT.
+ #Date: 2016-05-11
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.4.7.4] 1. improve FTP function.
+ #Date: 2016-05-11
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.4.7.1] 1. Modify the main entrance. 2. add phisical button detect.
+ #Date: 2016-05-09
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.4.7] 1. Fixed some issue.
+ #Date: 2016-05-05
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.4.7] 1. Replace SMB with FTP.
+ #Date: 2016-05-05
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.4.7] 1. Add one-many function; 2. Fixed some issues.
+ #Date: 2016-05-05
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.4.6] 1. Update UI display.
+ #Date: 2016-04-29
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.4.6] 1. Update Scene logic. 2. Add Chat bot function.
+ #Date: 2016-04-28
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.4.5] 1. Update Scene logic. 2. Random subscription key.
+ #Date: 2016-04-27
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.4.4] 1. Fixed the bug:can't play local music sometimes, it will show "can not found music file".
+ #Date: 2016-04-26
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.4.4] 1. Fixed the bug:no permission to record on Android-M; 2. Add some server fields: domain, userName, password.
+ #Date: 2016-04-26
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.4.2] 1. Fixed some bugs; 2. update re-read test item.
+ #Date: 2016-04-22
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+ #Description: [TeddyBear V1.4.2] 1. Voice assistant: add speak function before lunch the third voice app.
+ #Date: 2016-04-19
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+ #Description: [TeddyBear V1.4.2] 1. Voice assistant; 2. Reread; 3. Parent control for reader.
+ #Date: 2016-04-19
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+
+
+
+ #Description: [Falcon] 1. Add sensor_raw_data original source code
+ #Date: 2016-02-15
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+ #Base on Project: Common_Library_V2.0.1_Build20151130
+
+
+
+ #Description: [Falcon] 1. Add original source code(OTA, RF_Desense, SIM_Socket_Selection)
+ #Date: 2015-12-22
+ #Author: King_D_Liu
+ #Commit Reason: Add new test item|function change.
+ #Function Area: [WistronTool].
+ #Base on Project: Common_Library_V2.0.1_Build20151130

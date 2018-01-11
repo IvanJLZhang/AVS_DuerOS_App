@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/menu_item_settings">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="notification_access_switch"
+        android:persistent="true"
+        android:title="@string/demo_item_notification_access" />
+
+    <com.wistron.demo.tool.teddybear.parent_side.sync_msg_by_bt.WisMultiSelectListPreference
+        android:dependency="notification_access_switch"
+        android:key="notification_access_apps"
+        android:persistent="true"
+        android:entries="@array/preference_voice_language_entries"
+        android:entryValues="@array/preference_voice_language_values"
+        android:summary="@string/notification_access_apps_summary_none"
+        android:title="@string/notification_access_apps_title" />
+
+</PreferenceScreen>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flatui="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+
+    <com.wistron.demo.tool.teddybear.parent_side.view.FlatTextView
+        android:textSize="25dp"
+        android:id="@+id/dialog_title"
+        android:text="@string/connect_wifi"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/dialog_pwd_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.wistron.demo.tool.teddybear.parent_side.view.FlatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/password" />
+
+        <com.wistron.demo.tool.teddybear.parent_side.view.FlatEditText
+            flatui:fl_fieldStyle="transparent"
+            android:password="true"
+            android:id="@+id/dialog_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <com.wistron.demo.tool.teddybear.parent_side.view.FlatCheckBox
+        android:text="@string/show_password"
+        android:id="@+id/dialog_show_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.wistron.demo.tool.teddybear.parent_side.view.FlatButton
+            android:layout_marginRight="3dp"
+            android:id="@+id/dialog_cancel"
+            android:text="@string/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.wistron.demo.tool.teddybear.parent_side.view.FlatButton
+            android:id="@+id/dialog_connect"
+            android:text="@string/connect"
+            android:enabled="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

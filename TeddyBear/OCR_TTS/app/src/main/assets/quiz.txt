@@ -1,0 +1,29 @@
+Round1:Animal Quiz
+Q1:How many legs does a spider have?
+A1:8
+
+Q2:What is the tallest animal in the world?
+A2:giraffe
+
+Q3:What food makes up nearly all of a Giant Panda's diet?
+A3:Bamboo
+
+Round2:Country Quiz
+Q1:What country has a maple leaf on their national flag?
+A1:Canada
+
+Q2:What country was the first to land a man on the moon?
+A2:USA & United States & America
+
+Q3:Mount Fuji is the highest mountain in what country?
+A3:Japan
+
+Round3:True or False Quiz
+Q1:True or false. Spiders have eight legs.
+A1:True
+
+Q2:True or false. Sharks are mammals.
+A2:False
+
+Q3:True or false. The Atlantic Ocean is the biggest ocean on Earth.
+A3:False

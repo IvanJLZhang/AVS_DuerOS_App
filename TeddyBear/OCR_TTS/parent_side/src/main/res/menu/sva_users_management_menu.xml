@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_item_sva_users_management_add"
+        android:title="@string/menu_item_add"
+        android:icon="@drawable/ic_menu_invite"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/menu_item_sva_users_management_modify"
+        android:title="@string/menu_item_modify"
+        android:icon="@drawable/ic_menu_edit"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/menu_item_sva_users_management_delete"
+        android:title="@string/menu_item_delete"
+        android:icon="@drawable/ic_menu_delete"
+        app:showAsAction="always"></item>
+</menu>

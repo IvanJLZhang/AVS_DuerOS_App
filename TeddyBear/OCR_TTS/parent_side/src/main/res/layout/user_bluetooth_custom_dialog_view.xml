@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Custom dialog "
+        android:textColor="#FFFFFFFF"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/user_params_name"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="@dimen/icon_normal_width"
+            android:layout_height="@dimen/icon_normal_width"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/mine" />
+
+        <EditText
+            android:id="@+id/sva_user_edit_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="@string/user_params_name"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/user_params_email"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="@dimen/icon_normal_width"
+            android:layout_height="@dimen/icon_normal_width"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/mail" />
+
+        <EditText
+            android:id="@+id/sva_user_edit_email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="@string/user_params_email"
+            android:digits="@string/user_dialog_email_input_type"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/user_params_mac_address"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="@dimen/icon_normal_width_half"
+            android:layout_height="@dimen/icon_normal_width"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/bluetooth" />
+
+        <ImageView
+            android:layout_width="@dimen/icon_normal_width_half"
+            android:layout_height="@dimen/icon_normal_width"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/mac" />
+
+        <Spinner
+            android:id="@+id/sva_user_edit_address"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dialog"
+
+            android:layout_weight="2" />
+    </LinearLayout>
+</LinearLayout>

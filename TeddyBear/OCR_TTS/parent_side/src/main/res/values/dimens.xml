@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="main_activity_button_text_size">20dp</dimen>
+
+    <dimen name="main_activity_button_effect_height">5dp</dimen>
+    <dimen name="main_activity_button_right_effect_height">3dp</dimen>
+
+    <dimen name="icon_normal_width">30dp</dimen>
+    <dimen name="icon_normal_width_half">15dp</dimen>
+
+    <!--AVS-->
+    <dimen name="avs_activity_button_text_size">15dp</dimen>
+</resources>

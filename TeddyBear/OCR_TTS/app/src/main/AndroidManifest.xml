@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wistron.demo.tool.teddybear"
+
+     android:sharedUserId="android.uid.system">
+
+
+    <!-- android:sharedUserId="android.uid.system" -->
+
+
+    <!-- OCR_TTS -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Scene -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!-- Face emotion -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- Voice assist -->
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAPTURE_AUDIO_OUTPUT" />
+    <uses-permission android:name="android.permission.CAPTURE_AUDIO_HOTWORD" />
+
+    <!-- Bluetooth -->
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <!-- For bluetooth discovery -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- Google assistant -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <application
+        android:name=".TeddyBearApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/teddy_bear"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:persistent="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Google OCR: reserved -->
+        <!--
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="ocr" />
+        -->
+
+        <activity
+            android:name=".scene.useless.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".ocr_tts.OcrTtsActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/demo_title_ocr_tts"
+            android:launchMode="singleTop"
+            android:screenOrientation="nosensor">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+
+        </activity>
+        <activity
+            android:name=".ocr_tts.OcrTtsSettingsActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/menu_item_ocr_tts_settings"
+            android:parentActivityName=".ocr_tts.OcrTtsActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".scene.SceneActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".scene.EnrollSpeaker"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/menu_item_enroll_speaker"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".scene.RereadActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/menu_item_reread"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".scene.helper.CameraHelper"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".scene.SceneSettingsActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/menu_item_scene_settings"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".SettingsActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/menu_item_settings"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".scene.useless.ChatRobotActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/menu_item_chat_robot"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".scene.useless.AssistantActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/menu_item_voice_assist"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="com.amazon.identity.auth.device.authorization.AuthorizationActivity"
+            android:allowTaskReparenting="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!--
+                     android:host must use the full package name
+                      found in Manifest General Attributes
+                -->
+                <data
+                    android:host="com.wistron.demo.tool.teddybear"
+                    android:scheme="amzn" />
+            </intent-filter>
+        </activity>
+        <!-- Face recognition -->
+        <activity
+            android:name=".face_recognition.FacialRecognitionActivity"
+            android:label="@string/menu_face_recognition_settings"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".face_recognition.AddPhoto"
+            android:label="@string/title_activity_add_photo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".face_recognition.ImageConfirmation"
+            android:label="@string/title_activity_image_confirmation" />
+        <activity
+            android:name=".face_recognition.ChooseUser"
+            android:label="@string/title_activity_choose_user" />
+        <activity
+            android:name=".face_recognition.LiveRecognition"
+            android:label="@string/title_activity_live_recognition"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+        <service android:name=".scene.MonitorModeService" />
+        <service android:name=".scene.voiceactivation.VwuService" />
+
+        <receiver
+            android:name=".BootReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".scene.helper.NotificationToDatabaseListener"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+        <service android:name=".wifi_setup.service.WifiSetupService" />
+        <service android:name=".wifi_setup.service.WifiDirectSetupService" />
+        <service
+            android:name=".scene.sync_msg_by_bt.SyncMessageService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".scene.youtube.YoutubePlayActivity"
+            android:screenOrientation="landscape" />
+
+        <service android:name=".light_control.LightControllerService" />
+
+        <receiver
+            android:name=".scene.network.NetworkConnectionChangedReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".scene.baidu.bd_wakeup.BaiduWakeupService"
+            android:enabled="true"
+            android:exported="true"></service>
+    </application>
+
+</manifest>
